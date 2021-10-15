@@ -1,0 +1,277 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Thiago Correia Monteiro",
+      "email": "thiago@email.com",
+      "password": "123",
+      "apartment": "101",
+      "apartmentComplexName": "Sweet Apartment Complex",
+      "apartmentComplexId": 1,
+      "level": 1
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "label": "apartment owner"
+    },
+    {
+      "id": 2,
+      "label": "apartment manager"
+    }
+  ],
+  "feed": [
+    {
+      "image": "https://picsum.photos/150",
+      "title": "Pool Party",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "date": "2021-10-15T03:58:30.573Z"
+    },
+    {
+      "image": "https://picsum.photos/150",
+      "title": "Pool Party",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "date": "2021-10-15T03:58:30.573Z"
+    },
+    {
+      "image": "https://picsum.photos/150",
+      "title": "Pool Party",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "date": "2021-10-15T03:58:30.573Z"
+    },
+    {
+      "image": "https://picsum.photos/150",
+      "title": "Pool Party",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "date": "2021-10-15T03:58:30.573Z"
+    }
+  ],
+  "apartmentComplexPlaces": [
+    {
+      "apartmentComplexId": 1,
+      "places": [
+        {
+          "image": "https://picsum.photos/150",
+          "id": 1,
+          "label": "Pool",
+          "timeAvailable": [
+            {
+              "min": "10:00",
+              "max": "22:00"
+            }
+          ],
+          "available": true,
+          "inUse": [
+            {
+              "apartmentOwnerId": 1,
+              "date": "10/10/2021",
+              "time": [
+                {
+                  "start": "14:00",
+                  "finish": "22:00"
+                }
+              ]
+            },
+            {
+              "apartmentOwnerId": 2,
+              "date": "11/10/2021",
+              "time": [
+                {
+                  "start": "15:00",
+                  "finish": "18:00"
+                }
+              ]
+            },
+            {
+              "apartmentOwnerId": 1,
+              "date": "13/10/2021",
+              "time": [
+                {
+                  "start": "18:00",
+                  "finish": "22:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "image": "https://picsum.photos/150",
+          "id": 2,
+          "label": "Barbecue Area",
+          "timeAvailable": [
+            {
+              "min": "10:00",
+              "max": "22:00"
+            }
+          ],
+          "available": true,
+          "inUse": [
+            {
+              "apartmentOwnerId": 1,
+              "date": "10/10/2021",
+              "time": [
+                {
+                  "start": "14:00",
+                  "finish": "22:00"
+                }
+              ]
+            },
+            {
+              "apartmentOwnerId": 2,
+              "date": "11/10/2021",
+              "time": [
+                {
+                  "start": "15:00",
+                  "finish": "18:00"
+                }
+              ]
+            },
+            {
+              "apartmentOwnerId": 1,
+              "date": "13/10/2021",
+              "time": [
+                {
+                  "start": "18:00",
+                  "finish": "22:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "image": "https://picsum.photos/150",
+          "id": 3,
+          "label": "Soccer Field",
+          "timeAvailable": [
+            {
+              "min": "10:00",
+              "max": "22:00"
+            }
+          ],
+          "available": true,
+          "inUse": [
+            {
+              "apartmentOwnerId": 1,
+              "date": "10/10/2021",
+              "time": [
+                {
+                  "start": "14:00",
+                  "finish": "22:00"
+                }
+              ]
+            },
+            {
+              "apartmentOwnerId": 2,
+              "date": "11/10/2021",
+              "time": [
+                {
+                  "start": "15:00",
+                  "finish": "18:00"
+                }
+              ]
+            },
+            {
+              "apartmentOwnerId": 1,
+              "date": "13/10/2021",
+              "time": [
+                {
+                  "start": "18:00",
+                  "finish": "22:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "image": "https://picsum.photos/150",
+          "id": 4,
+          "label": "Game Room",
+          "timeAvailable": [
+            {
+              "min": "10:00",
+              "max": "22:00"
+            }
+          ],
+          "available": true,
+          "inUse": [
+            {
+              "apartmentOwnerId": 1,
+              "date": "10/10/2021",
+              "time": [
+                {
+                  "start": "14:00",
+                  "finish": "22:00"
+                }
+              ]
+            },
+            {
+              "apartmentOwnerId": 2,
+              "date": "11/10/2021",
+              "time": [
+                {
+                  "start": "15:00",
+                  "finish": "18:00"
+                }
+              ]
+            },
+            {
+              "apartmentOwnerId": 1,
+              "date": "13/10/2021",
+              "time": [
+                {
+                  "start": "18:00",
+                  "finish": "22:00"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "image": "https://picsum.photos/150",
+          "id": 5,
+          "label": "Basketball Court",
+          "timeAvailable": [
+            {
+              "min": "10:00",
+              "max": "22:00"
+            }
+          ],
+          "available": true,
+          "inUse": [
+            {
+              "apartmentOwnerId": 1,
+              "date": "10/10/2021",
+              "time": [
+                {
+                  "start": "14:00",
+                  "finish": "22:00"
+                }
+              ]
+            },
+            {
+              "apartmentOwnerId": 2,
+              "date": "11/10/2021",
+              "time": [
+                {
+                  "start": "15:00",
+                  "finish": "18:00"
+                }
+              ]
+            },
+            {
+              "apartmentOwnerId": 1,
+              "date": "13/10/2021",
+              "time": [
+                {
+                  "start": "18:00",
+                  "finish": "22:00"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
