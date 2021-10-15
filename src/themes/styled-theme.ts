@@ -2,39 +2,32 @@ const colors = {
   primary: '#55A38B',
   primaryDark: '#00543D',
   background: '#FFFFFF',
-  background2: '#EEEEEE',
   opaqueBackground: '#FFFFFFb3',
 
   white: '#FFFFFF',
   black: '#000000',
 
-  text: '#555555',
+  text: '#FFFFFF',
   textDark: '#444444',
-  textLight: '#707070',
-  textLighter: '#EEEEEE',
-  textDisabled: '#CCCCCC',
-  textDisabledDark: '#AAAAAA',
+  textDisabled: '#AAAAAA',
   textError: '#CE1126',
-  textBlue: '#55A38B',
+  textGreen: '#55A38B',
 
   clickable: '#55A38B',
   clickableActive: '#00543D',
   disabled: '#CCCCCC',
-  textBtn: '#FFFFFF',
-  textBtn2: '#55A38B',
-  textBtnDisabled: '#FFFFFF',
-  pressableArrow: '#555555',
+  textButton: '#FFFFFF',
+  textButtonGreen: '#55A38B',
+  textButtonDisabled: '#FFFFFF',
 
-  iconBtn: '#FFFFFF',
+  iconLight: '#FFFFFF',
   icon: '#55A38B',
-  iconBtnDisabled: '#DDDDDD',
-  iconDisabled: '#FFFFFF',
+  iconDisabled: '#AAAAAA',
   iconAdornment: '#AAAAAA',
-
   input: '#FFFFFF',
   inputText: '#777777',
   inputBorder: '#55A38B',
-  inputLabel: '#555555',
+  inputLabel: '#FFFFFF',
   inputDisabled: '#DDDDDD',
   inputBorderError: '#CE1126',
 
@@ -57,7 +50,45 @@ const colors = {
   tabItemLabelSelected: '#fff',
 } as const;
 
-export default {colors};
+const dimensions = {
+  button: {
+    width: '360px',
+    height: '40px',
+    borderRadius: '100px',
+  },
+  roundButton: {
+    width: '40px',
+    height: '40px',
+    borderRadius: '40px',
+    icon: '22px',
+  },
+  input: {
+    width: '286px',
+    height: '40px',
+    borderRadius: '100px',
+    borderRadiusExpanded: '10px',
+    icon: '22px',
+  },
+};
+
+const fontSize = {
+  title: '25px',
+  titleSmall: '20px',
+  subtitle: '16px',
+  text: '18px',
+  smallText: '14px',
+  smallerText: '12px',
+  header: '22px',
+  button: '22px',
+  buttonSmall: '16px',
+};
+
+export default {colors, dimensions, fontSize};
+
+export type ThemeType = typeof colors & {
+  dimensions: typeof dimensions;
+  fontSize: typeof fontSize;
+};
 
 export type ColorsKeysType = keyof typeof colors;
 export type ColorsValuesType = typeof colors[ColorsKeysType];
