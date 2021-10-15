@@ -7,7 +7,6 @@ import sagaPlugin from 'reactotron-redux-saga';
 let reactotron;
 
 if (__DEV__) {
-  console.log(Config.REACTOTRON_IP);
   reactotron = Reactotron.configure({
     host: Config.REACTOTRON_IP,
   })
