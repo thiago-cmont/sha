@@ -8,6 +8,10 @@ export const AUTH_STACK = {
 export const MAIN_STACK = {
   MAIN: 'MAIN',
   HOME: 'HOME',
+  RESERVATIONS: 'RESERVATIONS',
+  CONTACT: 'CONTACT',
+  DOCUMENTS: 'DOCUMENTS',
+  FINANCES: 'FINANCES',
 };
 
 export default {
