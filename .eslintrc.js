@@ -35,6 +35,7 @@ module.exports = {
 			'warn',
 			{ "vars": "all", "varsIgnorePattern": "^_", "args": "after-used", "argsIgnorePattern": "^_" }
 		],
+    'no-falltrough' : 'off',
     'no-shadow': 'off',
     'camelcase': 'off',
     'no-param-reassign': 'off',
